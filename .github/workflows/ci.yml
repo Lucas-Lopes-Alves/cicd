@@ -1,0 +1,13 @@
+name: Ci node simples
+
+on:
+  push:
+    branches: ["main"]
+jobs:
+  validar:
+
+runs-on: ubuntu-latest
+
+steps:
+  -name: Baixar código
+  uses: actions/checkout@v4

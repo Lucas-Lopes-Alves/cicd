@@ -1,0 +1,12 @@
+{
+  "name": "cicd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "timeout 5s node index || [$? -eq 124]"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
