@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "timeout 5s node index || [$? -eq 124]"
+    "test": "timeout 5s node index.js || [ $? -eq 124  ]"
   },
   "keywords": [],
   "author": "",
